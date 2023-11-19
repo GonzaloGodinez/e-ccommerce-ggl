@@ -1,4 +1,4 @@
-# e-commerce-ggl
+# e-ccommerce-ggl
 
 ## link to Repo
 [link to GGL repository url github](https://github.com/GonzaloGodinez/e-ccommerce-ggl)
