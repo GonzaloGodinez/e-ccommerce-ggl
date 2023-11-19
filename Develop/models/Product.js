@@ -1,4 +1,4 @@
-// import important parts of sequelize library
+// import important parts of sequelize Product
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
@@ -32,8 +32,8 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isNumeric: true-
-      }
+        isNumeric: true
+      },
     },
     category_id: {
       type: DataTypes.INTEGER,
@@ -43,7 +43,7 @@ Product.init(
         key: 'id',
       },
     }
-      },
+  },
   {
     sequelize,
     timestamps: false,

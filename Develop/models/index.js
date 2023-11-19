@@ -23,7 +23,6 @@ Product.belongsToMany(Tag, {
   // Define an alias for when data is retrieved
 });
 // Tags belongToMany Products (through ProductTag)
-
 Tag.belongsToMany(Product, {
   // Define the third table needed to store the foreign keys
   through: {
