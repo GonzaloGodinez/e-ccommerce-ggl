@@ -30,15 +30,14 @@ router.get('/:id', async (req, res) => {
         where: {
           id: req.params.id
         },
-        include: [{
-          model: Product
-        },]
+        include: [{model: Product},]
       }
     );
     if (!tagData) {
-      return res.status(404).json({message: 'no Tags found for this is'})
+     res.status(404).json({message: 'no Tags found for this id'});
+     return;
     }
-    res.status(200).json(tagData)
+    res.status(200).json(tagData);
   } catch(err) {
     res.status(500).json(err);
   }
