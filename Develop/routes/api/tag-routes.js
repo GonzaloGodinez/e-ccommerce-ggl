@@ -34,8 +34,7 @@ router.get('/:id', async (req, res) => {
       }
     );
     if (!tagData) {
-     res.status(404).json({message: 'no Tags found for this id'});
-     return;
+      return res.status(404).json({message: 'no Tags found for this id'});
     }
     res.status(200).json(tagData);
   } catch(err) {
