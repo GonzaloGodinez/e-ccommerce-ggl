@@ -3,10 +3,10 @@
 ## link to Repo
 [link to GGL repository url github](https://github.com/GonzaloGodinez/e-ccommerce-ggl)
 ## link to Walkthrough Video that demonstrates its functionality
-[link to Walkthrough Video](https://watch.screencastify.com/v/QAEHQ2GqW9hoWa1PmfPo)
+[link to Walkthrough Video](https://drive.google.com/file/d/1OM7xhKhyLbAbut1lgRSzzJpV1bOsHBXq/view)
 
 ## Description
-I created this project using ORM to create e-ccommerce_db database with four model tables: Category, Product, ProductTag and Tag to interact with information stored in the database interfacing with imsomnia to create, update and delete model tables. 
+I created this project using ORM to build the back end for an e-ccommerce_db database with four model tables: Category, Product, ProductTag and Tag using Express.js API to interact with information stored in the database interfacing with imsomnia to create, update and delete model tables. 
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ I created this project using ORM to create e-ccommerce_db database with four mod
 
 ## Usage
 Creates eccommerce_db database.
-View, Add and updates models:
+View, Add, updates and delete models for:
 -   Product
 -   Category
 -   Tag
@@ -39,7 +39,7 @@ View, Add and updates models:
 ![Database model includes tables labeled: “Category”, Products”, “ProductTag” and "tag](./Assets/SampleProducts.gif)
 ![Get Product Demo”](./Assets/GetProdCatTagByid.gif)
 ![Create, Update Delete demo”](./Assets/CreateDeleteUpdateCat.gif)
-![Video sample image displaying E-ccommerce fields and aplication functionallity](./assets/video-sample.png)
+![Video sample displaying E-ccommerce fields and aplication functionallity](https://drive.google.com/file/d/1OM7xhKhyLbAbut1lgRSzzJpV1bOsHBXq/view)
 
 ## License
 MIT License
